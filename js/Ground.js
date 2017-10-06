@@ -23,8 +23,6 @@ var Ground=(function(){
 
 		    _ThreePlaneMesh.castShadow = false;
 		    _ThreePlaneMesh.receiveShadow = true;
-
-		    planeMaterial.map.repeat.x = planeMaterial.map.repeat.y = 20;
   		}, //end init()
 
 		get_sceneObjects: function(){
